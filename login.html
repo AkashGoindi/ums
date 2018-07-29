@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>application</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous">		
+  	</script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!--FontAwesome CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<span class="icon"><a href = "index.html"><i class="fas fa-times-circle"></i></a></span>
+		<h1>Login To Continue...</h1>
+	<form method="POST" id="loginForm">
+	  <div class="form-group">
+	    <input type="text" class="form-control" id="loginUser" placeholder="Enter UserName">
+	  </div>
+	  <div class="form-group">
+	    <input type="password" class="form-control" id="loginPass" placeholder="Enter Password">
+	  </div>
+	  <button type="submit" class="btn btn-primary">Login</button>
+	</form>
+	<hr>
+	<section class="secondBtn">
+		<p>New Here ?</p>
+		<button onclick="signupPage();" class="btn btn-success">Signup</button>
+	</section>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
